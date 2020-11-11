@@ -78,7 +78,7 @@ public class ConnectToSqlDB {
     }
 
     public List<String> readDataBase(String tableName, String columnName) throws Exception {
-        List<String> data = new ArrayList<>();
+        List<String> data = new ArrayList<String>();
 
         try {
             connectToSqlDatabase();
